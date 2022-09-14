@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa da praia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="javascript/script.js"></script>
+    <script src='http://maps.google.com/maps/api/js?key=AIzaSyDv7YRz1WWPhkr6aim8wEm4WDPBdk81z54'></script>
+</head>
+<body>
+    <section>
+        <header>
+            <div class="header-container">
+                <h1 class="h1header">Casa com Piscina</h1>
+                <h2 class="h2header">Espaço para 12 pessoas</h2>
+                
+                <nav class="navheader">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="itanhaem.html">Itanhaém</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </section>
+    <section>
+            <main>
+                <div class="sobre-container">
+                    <h1 class="h1sobre">O que oferecemos</h1>
+                    <p class="psobre">Casa aconchegante com sala e Tv com Sky HD + 150 canais liberados, cozinha completa e equipada, nos quartos duas cama de casal, beliches e camas de solteiro e um dos quartos possui ar condicionado, temos três banheiros, dois internos e um externo, um deles tem suite. O quintal é amplo e possui um pequeno jardim em volta da piscina, e para você relaxar temos uma piscina com uma pequena cascata, duas redes, cadeiras e boias. Para quem quer se divertir sem sair de casa, temos uma mesa de sinuca e de pebolim, já para quem quer ir para praia, a praia fica a 2 quarteirões, e nos temos guarda sois e cadeiras caso precise. Aceitamos pets e contamos com 4 vagas de garagem. O centro fica a alguns quilômetros da casa, tem muitos locais históricos para visitar, cachoeiras, rios, praias lindas e limpas para desfrutar. A noite você  pode passear no centro e conhecer a feirinha de artesanatos e comidas típicas, brincar no parque de diversões, curtir em bares com música ao vivo e cervejas geladíssimas!
+                    </p>
+                </div>
+                <div class="middle-container">
+                    <h1 class="h1middle">Fotos da casa</h1>
+        
+                    <div class="gallery">
+                        <div class="gallery__prev"></div>
+                        <div class="gallery__next"></div>
+                        <div class="gallery__stream">
+                          <div class="gallery__item bg-1"></div>
+                          <div class="gallery__item bg-2"></div>
+                          <div class="gallery__item bg-3"></div>
+                          <div class="gallery__item bg-4"></div>
+                          <div class="gallery__item bg-5"></div>
+                          <div class="gallery__item bg-6"></div>
+                          <div class="gallery__item bg-7"></div>
+                        </div>
+                      </div>
+                </div>
+            </main>
+    </section>
+    <section>
+        <footer>
+            <div class="footer">
+                <h1 class="h1footer">Contato</h1>
+                <img class="imgendereco" src="imagens/iconeendereco.png" alt="icone endereço">
+                <h2 class="h2endereco">Endereço: Avenida Sorocabana, 4310 - Jardim Cibratel</h2>
+                <img class="imgwhatsapp" src="imagens/iconewhatsapp.png" alt="icone whatsapp">
+                <h2 class="h2whatsapp">Whatsapp: (11) 94485-2626</h2>
+                <img class="imggmail" src="imagens/gmail.png" alt="icone gmail">
+                <h2 class="h2gmail">Email: ederlemos10@gmail.com</h2>
+                
+                <div style='overflow:hidden;height:250px;width:43%;color: black;padding: 28px;'>
+                    <div id='gmap_canvas' style='height:280px;width:100%;'></div>
+                     <style>#gmap_canvas img{max-width:none!important;background:none!important}.gm-ui-hover-effect{
+                    display: none!important;}</style>
+                   </div>
+                       <script type='text/javascript'>
+                        function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(-24.2096308,-46.8447286),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-24.2096308,-46.8447286)});infowindow = new google.maps.InfoWindow({content:'Avenida Sorocabana, 4310 - Jardim Cibratel'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+                        </script>
+            </div>
+        </footer>
+    </section>
+    
+</body>
+</html>

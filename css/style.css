@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    width: 100%;
+    height: 75vh;
+    background-image: url("../imagens/praias-de-itanhaem-revista-nove-foto-prefeitura-de-itanhaem3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.h1header{
+    font-size: 60px;
+    font-weight: 400;
+    position: absolute;
+    left: 150px;
+    top: 130px;
+}
+
+.h2header{
+    font-size: 40px;
+    font-weight: 300;
+    position: absolute;
+    left: 155px;
+    top: 200px;
+}
+
+nav{
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+
+.navheader{
+    width: 100%;
+    height: 51px;
+    z-index: 2;
+    padding: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 20px;
+    position: relative;
+    left: 470px;
+    top: 10px;
+    font-weight: 900;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav ul li a:hover{
+    color: white;
+    transition: .3s;
+    opacity: 100%;
+}
+
+.middle-container{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.gallery {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 90%;
+    max-height: 28vw;
+    overflow: hidden;
+  }
+  
+  .gallery__stream {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gallery__item {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transition: 1s all ease;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+  }
+
+  .gallery__item:nth-child(1) {
+    left: 0;
+    z-index: 1;
+    transform: translateX(-100%) scale(.8);
+  }
+  
+  .gallery__item:nth-child(2) {
+    left: 0;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+  }
+  
+  .gallery__item:nth-child(3) {
+    left: 50%;
+    z-index: 4;
+    transform: translateX(-50%) scale(1);
+  }
+  
+  .gallery__item:nth-child(4) {
+    left: 100%;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+  }
+  
+  .gallery__item:nth-child(n+5) {
+    left: 100%;
+    z-index: 1;
+    transform: scale(.8);
+  }
+
+  .bg-1 {
+    background-image: url(../imagens/praia1.jpeg);
+  }
+  
+  .bg-2 {
+    background-image: url(../imagens/praia2.jpeg);
+  }
+  
+  .bg-3 {
+    background-image: url(../imagens/praia3.jpeg);
+  }
+  
+  .bg-4 {
+    background-image: url(../imagens/praia4.jpeg);
+  }
+  
+  .bg-5 {
+    background-image: url(../imagens/praia5.jpeg);
+  }
+  
+  .bg-6 {
+    background-image: url(../imagens/praia6.jpeg);
+  }
+  
+  .bg-7 {
+    background-image: url(../imagens/praia7.jpeg);
+  }
+
+.gallery__prev,
+.gallery__next {
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-50%) translateY(-50%) scale(.8);
+  cursor: pointer;
+}
+
+.gallery__prev {
+  left: 0;
+}
+
+.gallery__next {
+  left: 100%;
+}
+
+.gallery:before,
+.gallery:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 3;
+}
+
+.h1middle{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.comodidades{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.comodidades ul{
+    list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: initial;
+    padding: 0 0 0 24px;
+    margin: 12px 0 24px;
+}
+
+.comodidades ul li{
+    list-style: initial;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 300px;
+    line-height: 40px;
+}
+
+.h1comodidades{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.Areaexterna{
+    position: absolute;
+    right: 450px;
+    top: 100px;
+}
+
+.h2comodidades{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.Areainterna{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.Outros{
+    position: absolute;
+    top: 100px;
+    right: 80px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    height: 43vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.h1footer{
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    right: 310px;
+    font-weight: 400;
+}
+
+.imgendereco{
+    position: absolute;
+    top: 98px;
+    right: 670px;
+    width: 23px;
+    
+}
+
+.h2endereco{
+    position: absolute;
+    top: 100px;
+    right: 55px;
+    font-weight: 400;
+}
+
+.imgwhatsapp{
+    position: absolute;
+    top: 150px;
+    right: 666px;
+    width: 30px;
+}
+
+.h2whatsapp{
+    position: absolute;
+    top: 150px;
+    right: 360px;
+    font-weight: 400;
+}
+
+.imggmail{
+    position: absolute;
+    top: 204px;
+    right: 666px;
+    width: 29px;
+}
+
+.h2gmail{
+    position: absolute;
+    top: 200px;
+    font-weight: 400;
+    right: 302px;
+}
+
+.sobre-container{
+    width: 100%;
+    height: 60vh;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.h1sobre{
+    font-size: 60px;
+    margin-top: 20px;
+    position: absolute;
+    right: 400px;
+    font-weight: 400;
+}
+
+.psobre{
+    font-size: 20px;
+    max-width: 1200px;
+    text-align: left;
+    position: absolute;
+    top: 120px;
+    right: 40px;  
+}
+
+.imgcibratel{
+    position: absolute;
+    top: 300px;
+    left: 140px;
+}
+
+.cibratel{
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 155vh;
+    border-bottom: 1px solid black;
+}
+
+.h1cibratel{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 400;
+    top: 30px;
+    left: 140px;
+}
+
+.pcibratel{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 300;
+    top: 90px;
+    left: 140px;
+    max-width: 1000px;
+}
+
+.h1praiacibratel{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    top: 250px;
+    left: 140px;
+}
+
+.ppraiacibratel{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 300;
+    max-width: 1000px;
+    left: 140px;
+    bottom: 50px;
+}
+
+.imgpraiadossonhos{
+    position: absolute;
+    width: 1000px;
+    height: 562px;
+    top: 100px;
+    left: 140px;
+}
+
+.sonhos{
+    width: 100%;
+    height: 125vh;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.h1sonhos{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    top: 50px;
+    left: 140px;
+}
+
+.psonhos{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 300;
+    left: 140px;
+    bottom: 50px;
+    max-width: 1000px;
+}
+
+.convento{
+    width: 100%;
+    height: 130vh;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.pconvento{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 300;
+    left: 140px;
+    bottom: 50px;
+    max-width: 1000px;
+}
+
+.h1convento{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    top: 50px;
+    left: 140px;
+}
+
+.imgconvento{
+    position: absolute;
+    width: 1000px;
+    height: 562px;
+    top: 100px;
+    left: 140px;
+}
+
+.h1museu{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    top: 50px;
+    left: 140px;
+}
+
+.imgmuseu{
+    position: absolute;
+    width: 1000px;
+    height: 562px;
+    top: 100px;
+    left: 140px;
+}
+
+.museu{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.pmuseu{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 300;
+    left: 140px;
+    bottom: 45px;
+    max-width: 1000px;
+}
+
+:root{
+    --color-white: black;
+    --color-red: #e63636;
+    --color-dark1: #d8dadf;
+    --color-dark2: white;
+    --color-purple1: #d8dadf;
+    --color-purple2: #d8dadf;
+}
+
+.content{
+    background-color: var(--color-dark2);
+    padding: 2rem;
+    min-width: 30%;
+    overflow: auto;
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: 1px solid black;
+    height: 115vh;
+}
+
+.contato {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.span-required{
+    font-size: 12px;
+    margin: 3px 0 0 1px;
+    color: var(--color-red);
+    display: none;
+}
+
+.inputs{
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--color-dark1);
+    opacity: 50%;
+    border: 2px solid var(--color-dark1);
+    color: var(--color-white);
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+.inputs:focus{
+    opacity: 100%;
+}
+
+.box-select{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    gap: 1rem;
+}
+
+button[type="submit"]{
+    padding: 1rem;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: var(--color-purple2);
+    color: var(--color-white);
+    cursor: pointer;
+    transition: .3s;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 50%;
+}
+
+button[type="submit"]:hover{
+    background-color: var(--color-purple1);
+    opacity: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .box-select{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
