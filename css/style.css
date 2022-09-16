@@ -270,14 +270,14 @@ nav ul li a:hover{
     font-size: 40px;
     position: absolute;
     top: 10px;
-    right: 310px;
+    right: 280px;
     font-weight: 400;
 }
 
 .imgendereco{
     position: absolute;
     top: 78px;
-    right: 670px;
+    right: 640px;
     width: 23px;
     
 }
@@ -285,28 +285,28 @@ nav ul li a:hover{
 .h2endereco{
     position: absolute;
     top: 80px;
-    right: 55px;
+    right: 25px;
     font-weight: 400;
 }
 
 .imgwhatsapp{
     position: absolute;
     top: 130px;
-    right: 666px;
+    right: 636px;
     width: 30px;
 }
 
 .h2whatsapp{
     position: absolute;
     top: 130px;
-    right: 360px;
+    right: 330px;
     font-weight: 400;
 }
 
 .imggmail{
     position: absolute;
     top: 184px;
-    right: 666px;
+    right: 636px;
     width: 29px;
 }
 
@@ -314,7 +314,7 @@ nav ul li a:hover{
     position: absolute;
     top: 180px;
     font-weight: 400;
-    right: 302px;
+    right: 272px;
 }
 
 .sobre-container{
@@ -589,5 +589,5 @@ button[type="submit"]:hover{
     height: 250px;
     background: white;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
