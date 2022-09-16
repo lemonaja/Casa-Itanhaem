@@ -1,3 +1,24 @@
-# Projeto de um site de uma casa na praia localizada em Itanhaém
+# Casa em Itanhaém
+
+[PreviewItanhaem.png](././preview/PreviewItanhaem.png)
+
+Minha família tem uma casa na praia para se alugar, então decidi criar este projeto para ajuda-los.
+
+[🔗 Clique aqui para acessar](https://lemonaja.github.io/Casa-Itanhaem/)
+
+## 🛠 Tecnologias 
+
+-HTML
+
+-CSS
+
+-Javascript
+
+-Git e GitHub
+
+## 👋 Contato
+
+febibilemos@gmail.com
+
 
 
