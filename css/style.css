@@ -227,6 +227,7 @@ nav ul li a:hover{
     font-family: 'Quicksand', sans-serif;
     max-width: 300px;
     line-height: 40px;
+    margin-left: 50px;
 }
 
 .h1comodidades{
@@ -242,6 +243,7 @@ nav ul li a:hover{
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: 400;
+    margin-left: 50px;
 }
 
 
