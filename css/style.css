@@ -269,14 +269,14 @@ nav ul li a:hover{
 .h1footer{
     font-size: 40px;
     position: absolute;
-    top: 30px;
+    top: 10px;
     right: 310px;
     font-weight: 400;
 }
 
 .imgendereco{
     position: absolute;
-    top: 98px;
+    top: 78px;
     right: 670px;
     width: 23px;
     
@@ -284,35 +284,35 @@ nav ul li a:hover{
 
 .h2endereco{
     position: absolute;
-    top: 100px;
+    top: 80px;
     right: 55px;
     font-weight: 400;
 }
 
 .imgwhatsapp{
     position: absolute;
-    top: 150px;
+    top: 130px;
     right: 666px;
     width: 30px;
 }
 
 .h2whatsapp{
     position: absolute;
-    top: 150px;
+    top: 130px;
     right: 360px;
     font-weight: 400;
 }
 
 .imggmail{
     position: absolute;
-    top: 204px;
+    top: 184px;
     right: 666px;
     width: 29px;
 }
 
 .h2gmail{
     position: absolute;
-    top: 200px;
+    top: 180px;
     font-weight: 400;
     right: 302px;
 }
@@ -581,4 +581,13 @@ button[type="submit"]:hover{
         flex-direction: column;
         gap: 5px;
     }
+}
+
+.mapBox{
+    position: relative;
+    width: 43%;
+    height: 250px;
+    background: white;
+    margin-top: 25px;
+    margin-left: 10px;
 }
