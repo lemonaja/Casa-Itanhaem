@@ -46,6 +46,7 @@ nav{
     z-index: 2;
     padding: 0;
     justify-content: center;
+    margin-top: 3px;
 }
 
 nav ul li{
@@ -228,6 +229,16 @@ nav ul li a:hover{
     max-width: 300px;
     line-height: 40px;
     margin-left: 50px;
+}
+
+.botaowpp{
+    width: 20%;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.imgwpp{
+    width: 100%;
 }
 
 .h1comodidades{
