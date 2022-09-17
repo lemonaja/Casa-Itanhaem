@@ -232,7 +232,7 @@ nav ul li a:hover{
 }
 
 .botaowpp{
-    width: 20%;
+    width: 300px;
     margin-left: 60px;
     margin-top: 10px;
 }
@@ -580,5 +580,96 @@ button[type="submit"]:hover{
     .box-select{
         flex-direction: column;
         gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .botaowpp{
+        width: 200px;
+    }
+    .h1footer{
+        margin-left: 160px;
+    }
+    .imgendereco{
+        margin-left: 30px;
+    }
+    .imgwhatsapp{
+        margin-left: 35px;
+    }
+    .imggmail{
+        margin-left: 35px;
+    }
+    .psobre{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .botaowpp{
+        width: 200px;
+        margin-left: 100px;
+    }
+
+    .h1header{
+        margin-top: 90px;
+        margin-left: 100px;
+    }
+    .h2header{
+        margin-left: 100px;
+    }
+    .h1footer{
+        margin-left: 160px;
+    }
+    .imgendereco{
+        margin-left: 30px;
+    }
+    .imgwhatsapp{
+        margin-left: 35px;
+    }
+    .imggmail{
+        margin-left: 35px;
+    }
+    .psobre{
+        margin-left: 5px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .h1footer{
+        margin-left: 0px;
+    }
+    .imgendereco{
+        margin-left: 0px;
+    }
+    .imgwhatsapp{
+        margin-left: 0px;
+    }
+    .imggmail{
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .gallery{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 90%;
+    max-height: 45vh;
+    overflow: hidden;
+    }
+    .gallery__item {
+        position: absolute;
+        width: 75%;
+        height: 100%;
+        transition: 1s all ease;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 5px;
+      }
+}
+@media only screen and (max-width: 564px){
+    .h1header{
+        margin-top: 90px;
     }
 }
