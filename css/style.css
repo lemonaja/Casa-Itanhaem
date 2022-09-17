@@ -633,20 +633,7 @@ button[type="submit"]:hover{
         margin-left: 5px;
     }
 }
-@media only screen and (max-width: 400px){
-    .h1footer{
-        margin-left: 0px;
-    }
-    .imgendereco{
-        margin-left: 0px;
-    }
-    .imgwhatsapp{
-        margin-left: 0px;
-    }
-    .imggmail{
-        margin-left: 0px;
-    }
-}
+
 @media only screen and (max-width: 900px){
     .gallery{
     position: absolute;
@@ -671,5 +658,49 @@ button[type="submit"]:hover{
 @media only screen and (max-width: 564px){
     .h1header{
         margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .h1header{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .h2header{
+        margin-left: 0;
+    }
+    .botaowpp{
+        margin-left: 0;
+    }
+    .h1middle{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px 10px;
+        text-align: center;
+        font-weight: 900;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .h1footer{
+        margin-left: 0px;
+    }
+    .imgendereco{
+        margin-left: 2px;
+    }
+    .imgwhatsapp{
+        margin-left: 2px;
+    }
+    .imggmail{
+        margin-left: 5px;
+    }
+    .footer{
+        justify-content: center;
+        text-align: center;
     }
 }
